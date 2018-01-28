@@ -1,0 +1,23 @@
+function setup() {
+background(0,0,255);
+stroke('#222222');
+  strokeWeight(8);
+  
+noFill();
+rect(0, 0, 335, 340);
+}
+
+
+
+function draw() {
+
+stroke(random(255),random(255),random(255));
+strokeWeight(6);
+rect(random(width), random(height), random(width), random(height));
+  
+  
+
+}
+
+
+}
