@@ -1,0 +1,11 @@
+function draw() {
+tits = random(255)
+lits = random(255)
+fits = random(255)
+stroke(tits,lits,fits);
+strokeWeight(6);
+rect(random(width), random(height), random(width), random(height));
+  
+  
+
+}
