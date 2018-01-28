@@ -1,0 +1,14 @@
+background(255);
+colorMode(HSB);
+stroke('#222222');
+strokeWeight(4);
+
+{var steps = 0;
+while (steps < 8) {
+ 
+  fill(random(360), 255, 255);
+  rect(random(width), random(height), random(width), random(height));
+ 
+}
+  steps = steps + 1;
+}
