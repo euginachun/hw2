@@ -1,0 +1,18 @@
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  line(random(width), random(height), 340, 0);
+}
+
+Assignment3
+background(255);
+colorMode(HSB);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.1);
+  fill(175, 100, 220);
+  ellipse(random(width), random(height), random(20, 40));
+}
